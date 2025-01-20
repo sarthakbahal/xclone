@@ -10,7 +10,7 @@
 </head>
 <body class="bg-black text-white">
     <div class="flex container mx-auto">
-        <div class="first w-[87%]">
+        <div class="first w-[50%]">
             <div class="logo invert">
                 <svg class="m-auto" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="80" viewBox="0 0 50 50">
                     <path d="M 5.9199219 6 L 20.582031 27.375 L 6.2304688 44 L 9.4101562 44 L 21.986328 29.421875 L 31.986328 44 L 44 44 L 28.681641 21.669922 L 42.199219 6 L 39.029297 6 L 27.275391 19.617188 L 17.933594 6 L 5.9199219 6 z M 9.7167969 8 L 16.880859 8 L 40.203125 42 L 33.039062 42 L 9.7167969 8 z"></path>
@@ -32,13 +32,88 @@
                 </ul>
             </div>
         </div>
-        <div class="second w-full border-[0.5px] border-x-gray-400 border-y-black">b</div>
-        <div class="third w-full">
-            <div class="search bg-gray-800 rounded-xl items-center flex gap-2 px-2 mx-3 my-3 w-fit justify-start">
-                <span class="material-symbols-outlined text-3xl">search</span>
-                <input type="text" class="bg-gray-800 rounded-xl outline-none w-[250px]" placeholder="Search">
+        <div class="second w-full border-[0.5px] border-x-gray-400 border-y-black">
+            <div class="top flex">
+                <div class="left w-1/2 text-center p-2 font-bold text-lg hover:underline hover:bg-gray-800">For You</div>
+                <div class="right w-1/2 text-center p-2 font-bold text-lg hover:underline hover:bg-gray-800">Following</div>
+                <div class="settings"><span class="material-symbols-outlined text-2xl p-2 hover:bg-gray-800">settings</span></div>
             </div>
+            <hr>
         </div>
+        <div class="third w-[80%] overflow-x-auto">
+            <div class="search bg-[#212328] rounded-xl items-center flex gap-2 px-2 mx-3 my-3 w-fit justify-start">
+                <span class="material-symbols-outlined text-3xl">search</span>
+                <input type="text" class="bg-[#212328] rounded-xl outline-none w-[250px]" placeholder="Search">
+            </div>
+
+            <div class="whats mx-3 my-3 bg-[#16181c] w-[80%] m-2 rounded-lg space-y-2 ">
+                <h1 class="text-xl font-bold m-1 p-2">Whats Happening !</h1>
+                <div class="items my-1 px-4 p-3 hover:bg-gray-700 cursor-pointer">
+                    <div class="text-sm text-gray-300">Trending in India</div>
+                    <div class="font-bold">#sorryMoment</div>
+                    <div class="text-sm text-gray-300">30.6k Posts</div>
+                </div>
+
+                <div class="items my-1 px-4 p-3 hover:bg-gray-700 cursor-pointer">
+                    <div class="text-sm text-gray-300">Trending in India</div>
+                    <div class="font-bold">#sorryMoment</div>
+                    <div class="text-sm text-gray-300">30.6k Posts</div>
+                </div>
+
+                <div class="items my-1 px-4 p-3 hover:bg-gray-700 cursor-pointer">
+                    <div class="text-sm text-gray-300">Trending in India</div>
+                    <div class="font-bold">#sorryMoment</div>
+                    <div class="text-sm text-gray-300">30.6k Posts</div>
+                </div>
+
+                <div class="items my-1 px-4 p-3 hover:bg-gray-700 cursor-pointer">
+                    <div class="text-sm text-gray-300">Trending in India</div>
+                    <div class="font-bold">#sorryMoment</div>
+                    <div class="text-sm text-gray-300">30.6k Posts</div>
+                </div>
+
+                <div class="show px-4 p-2 hover:bg-gray-700 cursor-pointer">
+                    <div class="text-blue-500">Show more</div>
+                </div>
+              
+            </div>
+            
+
+            <div class="whats mx-3 my-3 bg-[#16181c] w-[80%] m-2 rounded-lg space-y-2 ">
+                
+                <h1 class="text-xl font-bold m-1 p-2">Who to Follow</h1>
+                
+                <div class="items my-1 px-4 p-3 hover:bg-gray-700 cursor-pointer flex justify-between">
+                    <div class="profile ">
+                        <div class="font-bold">JiOne</div>
+                        <div class="text-sm text-gray-300">@jiman</div>
+
+                    </div>
+
+                    <button class="bg-white text-black px-4 py-1 rounded-full">Follow</button>
+                    
+                </div>  
+
+                <div class="items my-1 px-4 p-3 hover:bg-gray-700 cursor-pointer flex justify-between">
+                    <div class="profile ">
+                        <div class="font-bold">JiOne</div>
+                        <div class="text-sm text-gray-300">@jiman</div>
+
+                    </div>
+
+                    <button class="bg-white text-black px-4 py-1 rounded-full">Follow</button>
+                    
+                </div> 
+
+                <div class="show px-4 p-2 hover:bg-gray-700 cursor-pointer">
+                    <div class="text-blue-500">Show more</div>
+                </div>
+            </div>
+
+            
+        </div>
+        
+        
     </div>
 </body>
 </html>
